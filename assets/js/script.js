@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', function() {
     let slideInterval = setInterval(() => {
         currentIndex = (currentIndex + 1) % totalItems;
         updateDisplay();
-    }, 5000);
+    }, 10000);
     
     // Pause auto-rotation when user interacts
     document.querySelector('.list').addEventListener('mouseenter', () => {
